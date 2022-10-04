@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import NavBar from '../components/NavBar'
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  return <div className=''>
+  return <div className=' bg-[rgb(145,156,143)]'>
   <NavBar/>
   <Component {...pageProps} />
   </div>

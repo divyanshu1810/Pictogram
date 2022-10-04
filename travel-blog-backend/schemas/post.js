@@ -51,10 +51,10 @@ export default {
             type:'datetime',
             title:'Published At',
         },
-        // {
-        //     name:'body',
-        //     type:'blockContent',
-        //     title:'Body',
-        // }
+        {
+            name:'body',
+            type:'blockContent',
+            title:'Body',
+        }
     ]
 }

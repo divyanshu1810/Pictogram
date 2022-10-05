@@ -6,13 +6,13 @@ import Card from '../components/Card'
 const Home = ({posts}:any) => {
   // console.table(posts)
   return (
-    <div>
+    <div className='dashboard w-[100%]'>
       <Head>
         <title>Travel Blog</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
       </Head>
       <h1>{posts.username}</h1>
-      <div className='posts-container grid'>
+      <div className='posts-container flex flex-wrap justify-center'>
         {posts?.map((post:any)=>(
           <Link href="" key={post._id}>
             <Card post={post}/>
@@ -30,7 +30,7 @@ export async function getStaticProps({preview = false}:any){
       _id,
       title,
       "username":author->username,
-      "categories":category[]->{id,title},
+      "categories":categories[]->{id,title},
       "authorImage":author->avatar,
       body,
       mainImage,

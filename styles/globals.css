@@ -27,3 +27,23 @@ a {
     background: black;
   }
 }
+
+.card-container{
+  box-shadow:rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0,0,0,0.08) 0 0 0 1px;
+}
+
+.main-image{
+  width: 100%;
+}
+
+.tag-container .tag{
+  padding: 5px 10px;
+  margin: 5px 5px 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tag-container .tag:nth-child(1){
+  margin-left: 0 !important;
+}

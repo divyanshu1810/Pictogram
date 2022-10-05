@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Card.js", "lib/config.js", "lib/sanity.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Card.js", "lib/config.js", "lib/sanity.js", "pages/posts/[slug].js"],
   "exclude": ["node_modules"]
 }

@@ -7,6 +7,7 @@ const Home = ({ posts }: any) => {
     <div className='dashboard w-[100%]'>
       <Head>
         <title>Travel Blog</title>
+        <link rel="shortcut icon" href="/logo.png" type="image/x-icon" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <h1>{posts.username}</h1>

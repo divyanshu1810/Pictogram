@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import logo from "../public/favicon.ico"
+import logo from "../public/logo.png"
 const NavBar = () => {
     return(
         <nav className="bg-black min-h-[100vh] w-[200px] hidden md:flex flex-col items-center">
@@ -9,8 +9,8 @@ const NavBar = () => {
                     <Image src={logo} width={140} height={140} alt="Travel Blog Logo"></Image>
                 </Link>
             </div>
-            <div className="p-[30px]">
-                <p>XXXX</p>
+            <div className="p-[30px] -mt-16">
+                <p>Travel Blog</p>
             </div>
         </nav>
     )

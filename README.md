@@ -7,7 +7,7 @@
 Pictogram - Your own Gallery 🪄
 </p>
 <p align="center">
-crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://wwww.devyansh.me">DIVYANSHU YADAV</a>
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://www.linkedin.com/in/divyanshu-yadav-b32a76220/">DIVYANSHU YADAV</a>
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/version-1.0.0-red" alt="version 1.0.0"/>

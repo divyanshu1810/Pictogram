@@ -51,7 +51,7 @@ $ yarn start
 
 ## Shout outs 💥
 
-| <p align="center">![Divyanshu Yadav](https://github.com/divyanshu1810.png?size=128)<br>[Divyanshu Yadav](https://devyansh.me)</p> | 
+| <p align="center">![Divyanshu Yadav](https://github.com/divyanshu1810.png?size=128)<br>[Divyanshu Yadav](https://github.com/divyanshu1810)</p> | 
 | ---------------------------------------------------------------------------------------------------------------------------------- |
 
 
